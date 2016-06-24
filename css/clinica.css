@@ -1,0 +1,131 @@
+/*!
+ * CSS - clinica san cayetano
+ */
+
+html,
+body {
+  padding-top: 60px;
+   font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+   background-color: #eceff1;
+}
+
+@media screen and (max-width: 767px) {
+        body { padding-top: 60px; }
+    }
+    @media screen and (min-width:768px) and (max-width: 991px) {
+        body { padding-top: 110px; }
+    }
+    @media screen and (min-width: 992px) {
+        body { padding-top: 60px; }
+    }
+
+h1, h2, h3, h4{
+    padding-bottom: 10px;
+    color: #263238;
+}
+
+p{
+    color: #37474f;    
+}
+.navbar-default{
+    background-color: #78909c;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*pin our navigation to the top of the page after scrolling
+avbar-collapse nav.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    margin-top:12px;
+}*/
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #cfd8dc;
+}
+
+/*Set hover colour*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: #cfd8dc;  
+}
+.navbar-wrapper .navbar .container{
+    width: auto;
+}
+/*Change colour of active nav text*/
+.navbar-default .navbar-nav > li > a{
+   color: #fff;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand > img {
+  height: 105%;
+  padding: 15px;
+  width: 230px;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-wrapper {
+    margin-top: 30px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+/*About*/
+
+.about{
+    padding-top: 60px;
+    z-index:0; 
+}
+
+.label{
+  padding-right: 0px;
+}
+/*services*/
+.services{
+    background-color: #b0bec5;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+/*contact*/
+.contact{
+    padding-top: 40px;
+}
+
+.google-maps {
+        position: relative;
+        padding-bottom: 75%;
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 60% !important;
+    }
+
+/* Footer */
+
+footer {
+    background-color: #37474f;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    color: #cfd8dc;
+}
