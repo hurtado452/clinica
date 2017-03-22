@@ -34,7 +34,7 @@ body {
 .preloader img {
 	position: absolute;
 	top: calc(50% - 32px);
-	left: calc(50% - 32px);
+	left: calc(50% - 10px);
 }
 
 /* Typography */
@@ -219,6 +219,11 @@ section {
 .section-padded {
 	padding: 140px 0 40px;
 }
+
+.img-roll{
+    height: 100%;
+    width:100%;
+}
 /*about*/
 .about-main {
 	margin: 40px 0;
@@ -235,9 +240,12 @@ section {
 }
 
 .logo-about{
-	width: 500px;
-	height: 200px;
+    position: relative;
+	width: 75%;
+	height: 100%;
 }
+
+
 .about .icon-holder {
 	position: relative;
 	top: 100px;
@@ -323,8 +331,8 @@ section {
 }
 
 .contact-info .logo{
-	width: 500px;
-	height: 200px;
+	width: 75%;
+	height: 100%;
 }
 .owl-pricing img {
 	width: 100%;
@@ -564,6 +572,8 @@ footer .bottom-footer {
 @media(max-width:991px) {
 	.text-center-mobile {
 		text-align: center !important;
+        width: 100%;
+        height: 100%;
 	}
 }
 
