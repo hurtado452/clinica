@@ -33,9 +33,12 @@ html,body {
 }
 
 .preloader img {
-	position: absolute;
-	top: calc(50% - 32px);
-	left: calc(50% - 10px);
+
+	display: block;
+	padding-top: 50px;
+    margin: auto;
+    max-width: 20%;
+    max-height: 20%;
 }
 
 /* Typography */
