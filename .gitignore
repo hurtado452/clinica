@@ -1,5 +1,5 @@
 *.DS_Store
 css/*.DS_Store
 js/*.DS_Store
-img/
+img/*.DS_Store
 fonts/
