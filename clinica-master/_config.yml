@@ -1,0 +1,57 @@
+# Site settings
+title: Clínica San Cayetano
+description: "Humanidad. Honestidad. Calidad. Compromiso"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the name of your domain
+logo_url: img/logo_clinica.png
+
+# Hero
+hero:
+    hero_img: hero.jpg
+    hero_title: Clínica San Cayetano
+    hero_description: Humanidad. Honestidad. Calidad. Compromiso
+
+# Contact form
+api_token: # Enter API token here
+
+# Contact info
+contact:
+    phone: 593-2-2524117
+    emergency: 593-2-2502316
+    address: Mosquera Narváez OE3-244 y Av. América <br> Quito - Ecuador
+
+# Opening hours
+monday_friday: 9:00 – 18:00
+saturday: 10:00 – 17:00
+sunday: 10:00 – 15:00
+
+# Testimonials
+testimonials:
+    testimonials_img: covid.jpg
+
+# Map
+map:
+    zoom: 17
+    address: Mosquera Narváez OE3-244 y Av. América, Quito, Ecuador
+    address_details: svg/min/logo.svg
+
+# Social settings
+facebook: http://facebook.com
+twitter: http://twitter.com
+instagram: http://instagram.com
+
+# Footer
+copyright: © 2020 Clínica San Cayetano. All Rights Reserved
+estudio: assets/1.pdf
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
